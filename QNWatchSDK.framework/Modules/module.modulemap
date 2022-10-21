@@ -1,0 +1,6 @@
+framework module QNWatchSDK {
+  umbrella header "QNWatchSDK.h"
+
+  export *
+  module * { export * }
+}
