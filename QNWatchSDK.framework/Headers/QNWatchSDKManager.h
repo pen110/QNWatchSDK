@@ -63,6 +63,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param type 2是中风险
 - (void)onManager:(QNWatchSDKManager *)manager riskType:(int)type;
 
+
+/// 收到公告消息
+/// @param manager chat description
+/// @param notice 公告内容，公告id 和公告类型
+- (void)onManager:(QNWatchSDKManager *)manager noticeControl:(QNWAttModel *)notice;
+
+
 @end
 
 @interface QNWatchSDKManager : NSObject
